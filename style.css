@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Text {
+    color: hsl(347, 73%, 53%);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.HEADER>ul>li>a {
+    color: #222;
+
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 24px;
+}
+
+ul>li>a:hover {
+    color: hsl(347, 73%, 53%);
+}
+
+ul>li>a {
+    text-decoration: none;
+    gap: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 100px;
+
+    width: 1340px;
+}
+
+.rasm>img {
+    width: 50px;
+    height: 49.936px;
+    flex-shrink: 0;
+}
+
+.AnsorMed-text {
+    color: #DE2E54;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+}
+
+.rasm {
+    display: flex;
+}
+
+header>button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    height: 50px;
+
+    background: #FFF;
+    color: #DE2E54;
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header>button:hover {
+    background-color: black;
+    border: none;
+}
+
+ul>li {
+    list-style: none;
+
+}
+
+.navigatsion {
+    display: flex;
+    gap: 24px;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+.chap-text {
+    width: 500px;
+    height: 82.294px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Open Sans Condensed";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 600px;
+
+}
+
+.section1 {
+    background-image: url('./assets/img/image\ 4.png');
+    width: 100%;
+    height: 533px;
+    flex-shrink: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SECTION1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ong {
+    margin: 50px;
+}
+
+.Hijoma-text {
+    width: 440px;
+    height: 103.347px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 15px;
+
+}
+
+.chap {
+    margin: 137px 170px 0;
+
+}
+
+.chap>button {
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(222, 46, 84, 0.80);
+    color: #FFF;
+
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 0;
+    margin: 46px 0;
+}
+
+.Xizmatlar-text {
+    width: 133px;
+    height: 25.059px;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: "Open Sans Condensed";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: -69px auto;
+    position: absolute;
+    right: 600px;
+}
+
+.Hijoma-text2 {
+    color: #222;
+
+    font-family: "Open Sans Condensed";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.text1 {
+    color: #444;
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 600px;
+}
+
+.SECTION2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.SECTION2 {
+    margin: 127px;
+}
+
+.textla2 {
+    margin: 40px 64px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 195px;
+}
+
+.Manual-text {
+    color: #222;
+
+    font-family: "Open Sans Condensed";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Lorem-text {
+    color: #444;
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 600px;
+}
+
+.SECTION3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.textla3 {
+    margin: 40px 64px 0;
+}
+
+.Zuluk-text {
+    color: #222;
+    font-family: "Open Sans Condensed";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Girudoterapiya-text {
+    width: 600px;
+    color: #444;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.SECTION4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 80px;
+}
+
+.textla4 {
+    margin: 40px 64px 0;
+}
+
+.section3 {
+    width: 100%;
+    height: 669px;
+    flex-shrink: 0;
+    background: #0EB4C1;
+    position: relative;
+}
+
+.SECTION5 {
+    position: relative;
+    gap: 62px;
+}
+
+.rasm5 {
+    position: absolute;
+    left: 163px;
+    top: -150px;
+
+}
+
+.rasm6 {
+    position: absolute;
+    top: -150px;
+    left: 575px;
+}
+
+.rasm7 {
+    position: absolute;
+    top: -150px;
+    right: 163px;
+}
+
+.map {
+    margin: 0 163px;
+    position: absolute;
+    bottom: 54px;
+
+}
+
+.registratura {
+    width: 540px;
+    height: 331px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 290px 163px 0 200px;
+    position: absolute;
+    right: 43px;
+    top: -10px;
+}
+
+.from {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+input {
+    width: 460px;
+    height: 39.105px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    padding: 0 0 0 32px;
+}
+
+.input {
+    margin: 24px 0 0 0;
+}
+
+.button4 {
+    width: 460px;
+    height: 39.105px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    border: none;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+footer {
+    display: flex;
+    width: 1433px;
+    padding: 24px;
+    
+    
+    align-items: center;
+
+    background: #222;
+    justify-content: space-between;
+}
+
+.FOOTER>ul>li>a {
+    color: #FFF;
+
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;;
+    gap: 24px;
+}
+
+ul>li>a:hover {
+    color: hsl(347, 73%, 53%);
+}
+
+ul>li>a {
+    text-decoration: none;
+    gap: 24px;
+}
+
+
+
+.rasm>img {
+    width: 50px;
+    height: 49.936px;
+    flex-shrink: 0;
+}
+
+.AnsorMed-text {
+    color: #DE2E54;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rasm {
+    display: flex;
+}
